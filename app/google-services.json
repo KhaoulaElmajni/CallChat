@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "372679018660",
+    "firebase_url": "https://callchatelite.firebaseio.com",
+    "project_id": "callchatelite",
+    "storage_bucket": "callchatelite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372679018660:android:270d22e44b05dba386be31",
+        "android_client_info": {
+          "package_name": "com.example.callchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372679018660-j57rt3t21nlkhibc1b7eff7er8aiegcp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCltcJx6c4vn5pzM_BeOfw_I7kEcaNZlQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372679018660-j57rt3t21nlkhibc1b7eff7er8aiegcp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
