@@ -5,16 +5,63 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back"
     tools:context=".SettingsActivity">
 
-    <TextView
+  <ImageView
+      android:id="@+id/settings_profile_image"
+      android:layout_width="250dp"
+      android:layout_height="250dp"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="50dp"
+      android:src="@drawable/profile_image"
+
+      ></ImageView>
+
+    <EditText
+        android:id="@+id/username_settings"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Settings Page"
-        android:textSize="20dp"
-        android:layout_centerInParent="true"
-        android:gravity="center"
-        >
-    </TextView>
+        android:hint="write your name"
+        android:drawableLeft="@drawable/edit_profile"
+        android:layout_below="@+id/settings_profile_image"
+        android:drawableTint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:backgroundTint="@android:color/white"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
 
+        ></EditText>
+    <EditText
+        android:id="@+id/bio_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="write your status"
+        android:drawableLeft="@drawable/edit_status"
+        android:layout_below="@+id/username_settings"
+        android:drawableTint="@android:color/white"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
+
+        ></EditText>
+
+    <Button
+        android:id="@+id/save_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_below="@+id/bio_settings"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="30dp"
+
+        ></Button>
 </RelativeLayout>
