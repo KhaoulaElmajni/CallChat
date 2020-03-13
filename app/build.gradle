@@ -29,12 +29,17 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:11.8.0'
     implementation 'com.firebaseui:firebase-ui-database:3.2.2'
     implementation 'com.hbb20:ccp:2.1.9'
+    //this
 //to allow user to select his country code easily country code picker
     implementation 'pub.devrel:easypermissions:0.4.0'//for permissions
     implementation 'com.google.android.material:material:1.0.0'
     implementation 'androidx.navigation:navigation-fragment:2.0.0'
     implementation 'androidx.navigation:navigation-ui:2.0.0'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    // streaming video chat
+    implementation 'com.opentok.android:opentok-android-sdk:2.15.3'
+    //realtime
+    implementation 'pub.devrel:easypermissions:0.4.0'
     implementation 'com.squareup.picasso:picasso:2.71828'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
